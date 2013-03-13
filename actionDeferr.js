@@ -64,4 +64,4 @@ function ActionDeferr (_allowDebug) {
 		actionDeferr = setTimeout( deferredHandle, 333 );
 	}
 }
-var Deferr = new ActionDeferr(true);
+var Deferr = new ActionDeferr(false);
